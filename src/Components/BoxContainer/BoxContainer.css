@@ -76,5 +76,25 @@
   font-weight: bold;
 }
 
-.center {
+.bottom {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.left{
+  display: flex;
+  flex-direction: column;
+}
+.bottomSpan{
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.bottomIcon{
+  margin-right: 5px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
 }

@@ -1,21 +1,28 @@
 .container {
   background-color: #1f2b48;
-  width: 450px;
+  width: 475px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
 .wrapper {
   display: flex;
+  flex-direction: row;
   padding: 10px;
+  width: 100%;
 }
 .searchIcon {
   color: #0079fb;
   font-size: 20px;
-  /* margin-top: 5px; */
   padding: 5px;
 }
+.searctForm {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
 .searchInput {
-  flex: 3;
+  width: 100%;
+  /* flex: 3; */
   padding: 10px;
   border: none;
   border-radius: 10px;
